@@ -39,7 +39,7 @@ int main() {
                         }
                 }
                 if(i>0)
-                    answers.push_back("\n");
+                        answers.push_back("\n");
                 sort(answers.begin(),answers.end());
                 for (auto it=answers.begin();it!=answers.end();it++)
                         cout<<*it;
